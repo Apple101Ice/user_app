@@ -1,0 +1,46 @@
+name="Adam Rivera"
+name="Katie Drake"
+name="Leon Goodwin"
+name="Victor Patrick"
+
+{
+    "username":"Adam Rivera",
+    "email":"adam@example.com",
+    "password":"adampass"
+}
+
+{
+    "username":"Katie Drake",
+    "email":"katie@example.com",
+    "password":"kaitepass"
+}
+
+{
+    "username":"Leon Goodwin",
+    "email":"leon@example.com",
+    "password":"leonpass"
+}
+
+{
+    "username":"Victor Patrick",
+    "email":"victor@example.com",
+    "password":"victorpass"
+}
+
+
+INSERT INTO contacts ("user_id", "name", "phone", "email", "address")
+VALUES
+  (1, 'Viola Barber', '+123456789', 'contact1@example.com', 'Powell, Cameroon'),
+  (1, 'Roy Tran', '+987654321', 'contact2@example.com', 'Webb, French Polynesia'),
+  (2, 'Mason White', '+111223344', 'contact3@example.com', 'Cain, South Korea'),
+  (2, 'Aaron Hart', '+555666777', 'contact4@example.com', 'Hicks, Guyana'),
+  (2, 'Sally Jackson', '+632505147', 'hekekkiz@gu.ki', 'Rogers, Botswana'),
+  (2, 'Cora Patton', '+279501318', 'duawgi@anedi.lr', 'Lloyd, China'),
+  (1, 'Keith Haynes', '+392524793', 'etoup@wo.cz', 'Foster, Niger'),
+  (3, 'Ola Sherman', '+276214303', 'juta@fo.mu', 'Higgins, Nepal'),
+  (1, 'Adele Curry', '+228252090', 'afahoeha@ip.bn', 'Moran, Sri Lanka'),
+  (1, 'Callie Phillips', '+513516464', 'jubho@nez.cz', 'Cruz, Dominica'),
+  (2, 'Robert Jones', '+771197187', 'otiofimom@tom.gd', 'Knight, Serbia'),
+  (2, 'Mollie Frank', '+187398506', 'ni@av.cm', 'Flores, Botswana'),
+  (3, 'Virginia Bass', '+626139338', 'gokmab@vegdopon.tj', 'Ray, Niger'),
+  (3, 'Kathryn Fernandez', '+213288038', 'al@ogo.pm', 'Miller, Maldives');
